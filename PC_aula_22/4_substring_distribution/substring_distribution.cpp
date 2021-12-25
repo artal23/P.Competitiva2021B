@@ -45,12 +45,7 @@ void build_lcp() {
 int pre[mxN];
  
 signed main(){
-    /*ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
-    #ifdef LOCAL
-    freopen("input.txt", "r" , stdin);
-    freopen("output.txt", "w", stdout);
-    #endif
-    */
+  
     cin>>S; N = S.size();
     suffix();
     build_lcp();
